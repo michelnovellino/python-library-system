@@ -11,6 +11,7 @@ system features :
 
 book : 
     -title
+    -code
     -desc
     -category
     -price
