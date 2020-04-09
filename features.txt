@@ -1,0 +1,23 @@
+system features :
+- add new book
+- edit book
+- delete book
+- categories
+- searc  
+- users,login,signup
+- settings [ categories, author,publisher]
+- day to operations
+- reports [ excel files]
+
+book : 
+    -title
+    -desc
+    -category
+    -price
+    -author
+    -publisher
+
+users : 
+    - username
+    - password
+    - email address
