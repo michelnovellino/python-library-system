@@ -26,6 +26,10 @@
     <property name="text">
      <string>Today</string>
     </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/assets/icons/calendar-icon.png</normaloff>:/assets/icons/calendar-icon.png</iconset>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
@@ -38,6 +42,10 @@
     </property>
     <property name="text">
      <string>books</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/assets/icons/books-icon.png</normaloff>:/assets/icons/books-icon.png</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -52,6 +60,10 @@
     <property name="text">
      <string>users</string>
     </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/assets/icons/users-icon.png</normaloff>:/assets/icons/users-icon.png</iconset>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
@@ -65,6 +77,10 @@
     <property name="text">
      <string>settings</string>
     </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/assets/icons/settings-icon.png</normaloff>:/assets/icons/settings-icon.png</iconset>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
@@ -77,6 +93,10 @@
     </property>
     <property name="text">
      <string>themes</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/assets/icons/themes-icon.png</normaloff>:/assets/icons/themes-icon.png</iconset>
     </property>
    </widget>
    <widget class="QTabWidget" name="tabWidget">
@@ -93,7 +113,7 @@
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string>Tab 1</string>
+      <string>1</string>
      </attribute>
     </widget>
     <widget class="QWidget" name="tab_2">
@@ -125,6 +145,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
  <connections/>
 </ui>
